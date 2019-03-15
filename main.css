@@ -1,0 +1,140 @@
+/*UNIVERSAL*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+  }
+
+/*ELEMENTS*/
+html, body {
+    height: 100%;
+}
+
+header h1 {
+    margin-left: 10px;
+    padding: 5px;
+}
+
+nav {
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 5px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+/*CLASSES*/
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.flex-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.flex-bottom {
+    flex: 10;
+    overflow-y: scroll;
+    flex-direction: column;
+    display: flex;
+    margin-top: 20px;
+}
+
+.flex-main {
+    flex: 10;
+}
+
+.flex-foot {
+    flex: 1;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.headline {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.info p {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.projects {
+    text-align: center;
+}
+
+.projects h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.projects p {
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 600px;
+}
+
+.project-img {
+    margin-bottom: 5px;
+    border: 2px solid black;
+    width: 50%;
+}
+
+.project-nav li {
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/*MEDIA QUERIES*/
+@media (max-width: 845px) {
+    .flex-top {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header h1 {
+        margin-left: 0;
+    }
+
+    nav {
+        margin-right: 0;
+    }
+
+    .project-img {
+        width: 90%;
+    }
+}
