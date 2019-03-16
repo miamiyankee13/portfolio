@@ -71,6 +71,7 @@ i {
     padding-top: 20px;
     background-color: linen;
     color: #040404;
+    -webkit-overflow-scrolling: touch;
 }
 
 .flex-main {
