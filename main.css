@@ -17,7 +17,7 @@ header {
 }
 
 header h1 {
-    margin-left: 50px;
+    margin-left: 30px;
     padding-top: 5px;
     color: linen;
     font-family: 'Oswald', sans-serif;
@@ -25,7 +25,7 @@ header h1 {
 
 nav {
     margin-top: 10px;
-    margin-right: 50px;
+    margin-right: 30px;
     padding: 5px;
 }
 
@@ -156,6 +156,10 @@ i {
 .tools {
     padding-top: 15px;
     padding-bottom: 15px;
+}
+
+.icon-item {
+    font-size: 14px;
 }
 
 /*MEDIA QUERIES*/
