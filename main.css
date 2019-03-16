@@ -7,6 +7,10 @@
   }
 
 /*ELEMENTS*/
+html, body {
+    height: 100%;
+}
+
 header {
     padding-top: 5px;
     padding-bottom: 5px;
@@ -49,7 +53,7 @@ i {
 .flex-container {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 100%;
 }
 
 .flex-top {
