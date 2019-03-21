@@ -31,14 +31,14 @@ nav {
 
 nav ul li {
     display: inline-block;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 nav ul li a {
     color: linen;
+    text-decoration: none;
 }
-
 
 i {
     padding-left: 10px;
@@ -75,7 +75,6 @@ i {
 }
 
 .flex-foot {
-    flex: 1;
     text-align: center;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -128,7 +127,6 @@ i {
 }
 
 .projects h2 {
-    margin-top: 20px;
     margin-bottom: 10px;
     font-family: 'Oswald', sans-serif;
 }
