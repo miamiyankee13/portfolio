@@ -131,14 +131,15 @@ i {
 }
 
 .project-img {
-    margin-top: 20px;
     border: 2px solid #595959;
     border-radius: 30px;
     width: 55%;
+    margin-bottom: 40px;
 }
 
 .project-nav {
     margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 .project-nav li {
