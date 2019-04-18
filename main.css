@@ -19,7 +19,7 @@ header {
 header h1 {
     margin-left: 30px;
     padding-top: 5px;
-    color: linen;
+    color: paleturquoise;
     font-family: 'Oswald', sans-serif;
 }
 
@@ -36,18 +36,28 @@ nav ul li {
 }
 
 nav ul li a {
-    color: linen;
+    color: paleturquoise;
     text-decoration: none;
     font-size: 1.5em;
 }
 
 nav ul li a:hover {
-    color: #040404;
+    color: white;
 }
 
 i {
     padding-left: 10px;
     padding-right: 10px;
+}
+
+hr {
+    width: 75%;
+    height: 10px;
+    background-color: #4A5759;
+    border: 1px solid #4A5759;
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /*CLASSES*/
@@ -61,7 +71,7 @@ i {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: #595959;
+    background-color: #4A5759;
 }
 
 .flex-bottom {
@@ -70,8 +80,8 @@ i {
     flex-direction: column;
     display: flex;
     padding-top: 20px;
-    background-color: linen;
-    color: #040404;
+    background-color: paleturquoise;
+    color: #4A5759;
     -webkit-overflow-scrolling: touch;
 }
 
@@ -81,18 +91,20 @@ i {
 
 .flex-foot {
     text-align: center;
-    padding-top: 15px;
+    margin-top: 10px;
+    padding-top: 5px;
     padding-bottom: 15px;
     font-weight: bold;
-    background-color: #595959;
-    color: linen;
+    background-color: #4A5759;
+    color: paleturquoise;
 }
 
 .headline {
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-bottom: 30px;
     padding-left: 15px;
     padding-right: 15px;
     text-align: center;
@@ -107,13 +119,14 @@ i {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 15px;
+    margin-top: 15px;
     padding-left: 15px;
     padding-right: 15px;
 }
 
 .info-links {
-    margin-top: 30px;
-    margin-bottom: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .info-links li {
@@ -123,13 +136,13 @@ i {
 }
 
 .info-links li a {
-    color:#040404;
+    color: paleturquoise;
     text-decoration: none;
     font-size: 1.25em;;
 }
 
 .info-links li a:hover {
-    transform: scale(1.2);
+    color: white;
 }
 
 .projects {
@@ -156,10 +169,11 @@ i {
 }
 
 .project-img {
-    border: 2px solid #595959;
+    border: 2px solid #4A5759;
     border-radius: 30px;
     width: 55%;
-    margin-bottom: 40px;
+    margin-top: 25px;
+    margin-bottom: 50px;
 }
 
 .project-nav {
@@ -174,12 +188,12 @@ i {
 }
 
 .project-nav li a {
-    color: #040404;
+    color: #4A5759;
     text-decoration: none;
 }
 
 .project-nav li a:hover {
-    transform: scale(1.1);
+    color: white;
 }
 
 .tools {
@@ -192,7 +206,7 @@ i {
 }
 
 .profile-img {
-    border: 2px solid #595959;
+    border: 2px solid #4A5759;
     width: 200px;
     border-radius: 30px;
     margin-bottom: 15px;
@@ -215,7 +229,7 @@ i {
     }
 
     .project-img {
-        width: 90%;
+        width: 80%;
     }
 
     .info-links {
@@ -229,9 +243,5 @@ i {
     
     .info-links li a {
         font-size: .91em;
-    }
-
-    .profile-img {
-        width: 175px;
     }
 }
