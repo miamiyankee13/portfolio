@@ -51,7 +51,7 @@ i {
 }
 
 hr {
-    width: 75%;
+    width: 80%;
     height: 10px;
     background-color: #4A5759;
     border: 1px solid #4A5759;
@@ -155,7 +155,6 @@ hr {
 }
 
 .projects p {
-    text-align: center;
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 10px;
@@ -164,7 +163,7 @@ hr {
     max-width: 640px;
 }
 
-.projects .tools {
+.projects {
     text-align: center;
 }
 
@@ -173,7 +172,7 @@ hr {
     border-radius: 30px;
     width: 55%;
     margin-top: 25px;
-    margin-bottom: 50px;
+    margin-bottom: 15px;
 }
 
 .project-nav {
