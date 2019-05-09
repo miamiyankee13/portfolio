@@ -80,7 +80,7 @@ hr {
     flex-direction: column;
     display: flex;
     padding-top: 20px;
-    background-color: paleturquoise;
+    background-image: linear-gradient(to bottom, paleturquoise, transparent);
     color: #4A5759;
     -webkit-overflow-scrolling: touch;
 }
