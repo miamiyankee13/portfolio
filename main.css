@@ -170,7 +170,7 @@ hr {
 .project-img {
     border: 2px solid #4A5759;
     border-radius: 30px;
-    width: 55%;
+    width: 40%;
     margin-top: 25px;
     margin-bottom: 15px;
 }
@@ -229,7 +229,7 @@ hr {
     }
 
     .project-img {
-        width: 80%;
+        width: 70%;
     }
 
     .info-links {
