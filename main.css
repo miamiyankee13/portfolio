@@ -206,8 +206,9 @@ hr {
 
 .profile-img {
     border: 2px solid #4A5759;
-    width: 200px;
-    border-radius: 30px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
     margin-bottom: 15px;
 }
 
